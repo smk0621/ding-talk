@@ -1,0 +1,22 @@
+# 忽略目录
+examples/
+public/
+tests/
+coverage/
+packages/
+build/
+.idea/
+.history/
+# 忽略指定文件
+vue.config.js
+babel.config.js
+*.map
+output.js
+jest.config.js
+yarn.lock
+.DS_Store
+.editorconfig
+.eslintignore
+.eslintrc.js
+webpack.config.js
+yarn-error.log

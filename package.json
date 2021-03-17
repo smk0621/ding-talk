@@ -1,0 +1,34 @@
+{
+  "name": "ding-talk",
+  "version": "0.0.1",
+  "description": "钉钉机器人发送消息",
+  "main": "dist/index.js",
+  "scripts": {
+    "ca": "git add -A && git-cz -av",
+    "commit": "git-cz",
+    "example": "yarn build && node examples/send.js",
+    "build": "webpack src/index.js"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
+    "@commitlint/cli": "^12.0.1",
+    "@commitlint/config-conventional": "^12.0.1",
+    "babel-loader": "^8.0.6",
+    "commitizen": "^4.2.3",
+    "cz-conventional-changelog": "^3.3.0",
+    "eslint": "^6.7.1",
+    "eslint-config-standard": "^14.1.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-node": "^9.1.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.0",
+    "husky": "^5.1.3",
+    "lint-staged": "^10.5.4",
+    "webpack": "^4.36.1",
+    "webpack-cli": "^3.3.6"
+  },
+  "dependencies": {
+    "axios": "^0.19.0"
+  }
+}
