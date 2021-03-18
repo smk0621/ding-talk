@@ -1,5 +1,5 @@
 {
-  "name": "ding-talk",
+  "name": "ding-talk-message",
   "version": "0.0.1",
   "description": "钉钉机器人发送消息",
   "main": "dist/index.js",
